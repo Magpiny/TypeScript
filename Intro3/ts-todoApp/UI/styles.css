@@ -1,0 +1,89 @@
+.container{
+    background-color: aliceblue;
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 1.2rem;
+    box-shadow:3px 4px grey, -3px -4px grey ;
+}
+
+header{
+    height: 10vh;
+    background-color: #000000;
+    text-align: center;
+    border-radius: 1.2rem;
+}
+
+h1{
+    color: white;
+}
+
+main{
+    padding: 2.5rem;
+    height: 68vh;
+}
+
+.get-todo-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    font-size: 80%;
+    padding: 0;
+   padding: 2.5rem;
+}
+
+input{
+    width: 80%;
+    border-width: 0;
+    border-radius: 1.2rem;
+}
+
+.myitem{
+    display: flex;
+}
+form{
+    display: flex;
+}
+
+.display-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.myitem{
+   display: flex; 
+   background-color: white;
+   width: 60%;
+   margin: 0 auto;
+   padding-left: 2rem;
+}
+
+.myitem>button{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: large;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+button{
+    font-size: big;
+    font-weight: bold;
+    border-radius: 1.2rem;
+    border-width: 0;
+    padding-left: .4rem;
+    padding-right: .4rem;
+    margin-left: 2rem;
+}
+
+footer{
+    height: 10vh;
+    background-color: rgb(18, 227, 18);
+    text-align: center;
+    color: white;
+    border-radius: 1.2rem;
+    padding-top: 2rem;
+}
